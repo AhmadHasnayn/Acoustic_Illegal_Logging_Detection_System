@@ -2,7 +2,7 @@
 A wood cutting detection system uses a combination of sensors and AI to identify unauthorized tree felling, typically by detecting the sounds and vibrations of chainsaws and using IoT (Internet of Things) technology to alert authorities. These systems can be integrated with other technologies like drones.
 
  # Description:
- A small project that uses YAMNet embeddings and a custom classifier to detect chainsaw / wood-cutting events from a microphone in realtime. It also includes utilities to generate embeddings from WAV files (`autoscript.py`) and a simple SPL noise monitor (`noisecheck.py`). The realtime detector publishes detection results (status + confidence) to an MQTT broker.
+ A small project that uses YAMNet embeddings and a custom classifier to detect chainsaw / wood-cutting events from a microphone in realtime. It also includes utilities to generate embeddings from WAV files (`autoscript.py`)). The realtime detector publishes detection results (status + confidence) to an MQTT broker.
 
 # Repository Structure
 - `realtime_yamnet.py`: Realtime detector using YAMNet embeddings + custom classifier; records audio with `sounddevice` and publishes predictions to MQTT.
