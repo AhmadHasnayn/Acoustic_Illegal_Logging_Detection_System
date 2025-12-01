@@ -49,3 +49,8 @@ Run realtime detector (`realtime_yamnet.py`)**
 ```powershell
 python .\realtime_yamnet.py
 - MQTT publishes are sent to the broker configured in `MQTT_BROKER` and `MQTT_TOPIC`.
+
+# Acknowledgements & References 
+- YAMNet (TensorFlow): https://tfhub.dev/google/yamnet/1
+- TensorFlow Hub: https://www.tensorflow.org/hub
+
