@@ -9,8 +9,7 @@ import paho.mqtt.client as mqtt
 # ================= CONFIG =================
 SAMPLE_RATE = 16000
 DURATION = 1.0
-MQTT_BROKER = "172.100.100.100"
-#MQTT_BROKER = "192.168.1.36"
+MQTT_BROKER = "192.168.1.36"
 MQTT_TOPIC = "forest/wood_cutting_detection_node1"
 
 # Define the local path where you saved the model
