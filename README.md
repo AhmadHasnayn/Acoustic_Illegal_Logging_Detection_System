@@ -40,3 +40,12 @@ YAMNet Model
 
 YAMNet TF‑Hub reference: https://tfhub.dev/google/yamnet/1
 
+# Train a simple classifier (example)
+- A minimal Keras classifier training flow (not included in repo) using `chainsaw_dataset.npz`:
+Run realtime detector (`realtime_yamnet.py`)**
+- By default the script loads YAMNet from `./yamnet_local_dir` (offline) — update `LOCAL_MODEL_PATH` if needed.
+- Ensure you have `chainsaw_yamnet_classifier_model.h5` in the repository root.
+- Example run command (use venv Python):
+```powershell
+python .\realtime_yamnet.py
+- MQTT publishes are sent to the broker configured in `MQTT_BROKER` and `MQTT_TOPIC`.
